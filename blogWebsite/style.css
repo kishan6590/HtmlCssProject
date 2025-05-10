@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+/* utility class */
+
+.pColor {
+  color: rgb(104, 100, 100);
+}
+
+/* styling home page  */
+a {
+  text-decoration: none;
+}
+header {
+  padding-inline: 80px;
+  padding-block: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav > ul li {
+  margin-inline: 1.2rem;
+  cursor: pointer;
+}
+nav > ul li i {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: #454444;
+  cursor: pointer;
+}
+
+/* hero section */
+
+.heroSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-inline: 8%;
+  padding-block: 3%;
+}
+.heroSection img {
+  width: 50%;
+  border-radius: 80px;
+}
+
+.heroContent h2 {
+  font-size: 5em;
+}
+.heroContent h3 {
+  font-size: 2em;
+  color: rgb(104, 100, 100);
+
+  font-weight: normal;
+}
+.heroContent {
+  margin-left: 3%;
+}
+
+.hCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 8%;
+  box-shadow: 0.5px 0.5px 3px rgba(177, 175, 175, 0.769);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.hCard img {
+  width: 42%;
+  object-fit: cover;
+}
+
+.hCard h3 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.hCard p {
+  font-size: 1.1em;
+  color: rgb(133, 130, 130);
+}
+
+.hContent {
+  padding-inline: 55px;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+#readMore {
+  color: black;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 66px;
+}
+
+.card {
+  max-width: 310px;
+  box-shadow: 1px 1px 2px rgba(203, 198, 198, 0.785);
+  border-radius: 4px;
+}
+
+.card img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.cardContent h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.cardContent {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.cardContent p {
+  color: rgb(141, 136, 136);
+}
+.cardStatus {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#cardReadMore {
+  color: black;
+  border: 1px solid red;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.2s ease-in-out;
+}
+.bigCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  margin-inline: 100px;
+  margin-block: 40px;
+  gap: 20px;
+
+  background-color: #f7fafc;
+}
+
+.bigCard img {
+  height: 100%;
+  width: 40%;
+  object-fit: cover;
+}
+.bigCard h2 {
+  font-size: 3em;
+}
+.bigCardContent {
+  margin-inline: 50px;
+  padding-inline: 100px;
+}
+
+.desc {
+  margin-top: 25px;
+}
+
+.bidCardStatus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-right: 11px;
+}
+
+.seeMOre i {
+  color: #ffffff;
+}
+.seeMOre {
+  background-color: purple;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  right: 100px;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+footer ul li a i {
+  color: #454444;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 100px;
+  margin-top: 100px;
+  height: 70px;
+  align-items: center;
+  border-top: 0.5px solid #45444423;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+/* post page styling */
+.postHeroSection {
+  display: flex;
+
+  width: 100%;
+  justify-content: center;
+}
+
+.postHeroSection img {
+  width: 100%;
+}
+
+.subHeroSection {
+  width: 60%;
+  border-bottom: 1px solid #4544447a;
+  padding-bottom: 30px;
+}
+.heroStatus {
+  display: flex;
+  margin-top: 10px;
+}
+.heroStatus p {
+  font-weight: 600;
+}
+.data {
+  margin-left: 40px;
+  color: #454444;
+}
+
+.contentSection {
+  width: 60%;
+  margin-inline: auto;
+}
+
+.contentSection h3 {
+  margin-block: 10px;
+}
+.contentSection h2 {
+  margin-block: 10px;
+}
